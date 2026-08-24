@@ -1,0 +1,14 @@
+anthropic
+pydantic
+streamlit
+transformers
+torch
+datasets
+scikit-learn
+rouge-score
+bert-score
+spacy
+rapidfuzz
+matplotlib
+python-dotenv
+jupyter

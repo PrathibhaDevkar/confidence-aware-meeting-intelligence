@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Data (raw downloads + regeneratable processed/output artifacts)
+data/raw/
+data/processed/
+data/outputs/
+
+# Trained model checkpoints
+models/
+
+# OS cruft
+.DS_Store
+__MACOSX/
