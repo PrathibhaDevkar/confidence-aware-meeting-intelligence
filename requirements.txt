@@ -1,4 +1,7 @@
-anthropic
+# LLM extraction runs against a local Ollama server (see docs/architecture.md) -
+# no anthropic/openai SDK required. Uncomment `anthropic` here if you later
+# add a paid-API comparison arm.
+requests
 pydantic
 streamlit
 transformers

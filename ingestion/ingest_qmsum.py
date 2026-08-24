@@ -8,6 +8,7 @@ from which domain-specific folder also contains the same meeting_id.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -19,6 +20,17 @@ ALL_ROOT = RAW_ROOT / "ALL"
 OUT_ROOT = Path("data/processed/qmsum")
 SPLITS = ["train", "val", "test"]
 DOMAIN_FOLDERS = {"Academic": "icsi", "Product": "ami", "Committee": "committee"}
+
+# AMI/ICSI transcription-convention annotation tags (disfluencies, filler
+# sounds, pauses, inline annotator comments) - not semantic content, and
+# confirmed (empirically, on extraction output) to distract the extraction
+# model from real action-item language when left in.
+_ANNOTATION_TAG_RE = re.compile(r"\{(?:disfmarker|vocalsound|pause|gap|nonvocalsound|comment)\}")
+
+
+def _clean_text(text: str) -> str:
+    text = _ANNOTATION_TAG_RE.sub("", text)
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def _domain_for_meeting(meeting_id: str) -> str:
@@ -40,13 +52,13 @@ def _build_transcript(path: Path, split: str) -> Transcript:
         if speaker:
             speakers.add(speaker)
         utterances.append(
-            Utterance(speaker=speaker, text=turn.get("content", ""), turn_index=i)
+            Utterance(speaker=speaker, text=_clean_text(turn.get("content", "")), turn_index=i)
         )
 
     reference_summary = None
     general_queries = raw.get("general_query_list") or []
     if general_queries:
-        reference_summary = general_queries[0].get("answer")
+        reference_summary = _clean_text(general_queries[0].get("answer", ""))
 
     domain = _domain_for_meeting(meeting_id)
     return Transcript(
