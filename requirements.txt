@@ -5,6 +5,7 @@ requests
 pydantic
 streamlit
 transformers
+accelerate
 torch
 datasets
 scikit-learn

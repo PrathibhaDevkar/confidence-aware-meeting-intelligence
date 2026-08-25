@@ -55,3 +55,18 @@ class SummaryOutput(BaseModel):
     abstractive_summary: str
     key_decisions: list[str]
     action_items: list[ActionItem]
+
+
+class CandidateSentence(BaseModel):
+    """One classifier-flagged action-item candidate (classifier/predict.py).
+
+    owner/deadline come from a lightweight rule-based post-process, not the
+    classifier itself - see docs/architecture.md for why the classifier arm
+    is scoped to binary sentence classification only.
+    """
+
+    utterance_index: int
+    text: str
+    is_action_item_prob: float
+    owner: Optional[str] = None
+    deadline: Optional[str] = None
