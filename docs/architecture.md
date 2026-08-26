@@ -25,6 +25,12 @@ A pipeline that treats confidence as a first-class, computed output rather than 
 
 QMSum's source (AMI/ICSI) transcripts carry transcription-convention annotation tags (`{disfmarker}`, `{vocalsound}`, `{pause}`, `{gap}`, `{comment}`, `{nonvocalsound}`). These are stripped during ingestion (`ingestion/ingest_qmsum.py`) — empirically, leaving them in caused the extraction model to miss real action items entirely (0 action items found on a test meeting with the tags present vs. 3-4 correctly found after cleaning).
 
+## Gold-labeling stability check (found and fixed a real pattern)
+
+The gold set (228 rows) was labeled with rule-based *suggestions* shown alongside each row (`confidence/pseudo_label_heuristic.py`) to speed up review - not model judgments, plain pattern-matching, specifically to avoid an LLM pre-judging its own output. After first-pass labeling matched the suggestions on 96% of rows (218/228), a stability recheck on a random sample surfaced a real, specific gap: **rows where the LLM's `evidence_span` doesn't actually support its own claimed task were still getting marked correct.** E.g., task "Create a report summarizing the meeting's key points" backed only by evidence "Okay we have to fill in all this stuff." A targeted second pass on the 7 lowest task/evidence-similarity rows (of the ones marked correct) found 3 genuine errors, which were corrected.
+
+This is a real, disclosed limitation of the gold set, not swept under the rug: single-annotator labeling assisted by imperfect suggestions has some anchoring risk, partially mitigated here by the stability check but not eliminated by it. Final distribution after correction: 142 `n` / 86 `y` on `correct_task` (out of 228).
+
 ## Phase plan
 
 1. **Setup & scoping** — repo skeleton, scope boundaries (this phase).
