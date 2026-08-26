@@ -20,17 +20,41 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from pipeline.schema import CandidateSentence, SummaryOutput
+from confidence.pseudo_label_heuristic import suggest_deadline, suggest_owner, suggest_task
+from pipeline.schema import CandidateSentence, SummaryOutput, Transcript
 
 GOLD_IDS_PATH = Path("data/eval_gold/selected_meetings.txt")
 LLM_DIR = Path("data/outputs/llm")
 CLF_DIR = Path("data/outputs/classifier")
+PROCESSED_ROOT = Path("data/processed")
 OUT_PATH = Path("data/eval_gold/labeling_sheet.csv")
 
 FIELDS = [
     "row_id", "meeting_id", "arm", "item_index", "text_shown", "owner", "deadline",
-    "evidence_span", "correct_task", "correct_owner", "correct_deadline", "notes",
+    "evidence_span", "suggested_task", "suggested_owner", "suggested_deadline",
+    "suggestion_reason", "correct_task", "correct_owner", "correct_deadline", "notes",
 ]
+
+
+def _load_transcript(meeting_id: str) -> Transcript:
+    dataset = meeting_id.split("_", 1)[0]
+    return Transcript.model_validate_json((PROCESSED_ROOT / dataset / f"{meeting_id}.json").read_text())
+
+
+def _add_suggestions(row: dict, transcript: Transcript) -> dict:
+    task_sugg, task_reason = suggest_task(row["text_shown"], row["evidence_span"], transcript)
+    row["suggested_task"] = task_sugg
+    if task_sugg == "No":
+        row["suggested_owner"] = "No"
+        row["suggested_deadline"] = "No"
+        row["suggestion_reason"] = task_reason
+    else:
+        owner_sugg, owner_reason = suggest_owner(row["owner"], row["evidence_span"], transcript)
+        deadline_sugg, deadline_reason = suggest_deadline(row["deadline"], row["evidence_span"])
+        row["suggested_owner"] = owner_sugg
+        row["suggested_deadline"] = deadline_sugg
+        row["suggestion_reason"] = f"task: {task_reason}; owner: {owner_reason}; deadline: {deadline_reason}"
+    return row
 
 TARGET_TOTAL = 225
 MIN_PER_MEETING = 3
@@ -66,26 +90,31 @@ def main() -> None:
     row_id = 0
 
     for meeting_id in meeting_ids:
+        transcript = _load_transcript(meeting_id)
+
         llm_path = LLM_DIR / f"{meeting_id}.json"
         if llm_path.exists():
             summary = SummaryOutput.model_validate_json(llm_path.read_text())
             for i, item in enumerate(summary.action_items):
                 row_id += 1
                 rows.append(
-                    {
-                        "row_id": row_id,
-                        "meeting_id": meeting_id,
-                        "arm": "llm",
-                        "item_index": i,
-                        "text_shown": item.task,
-                        "owner": item.owner or "",
-                        "deadline": item.deadline or "",
-                        "evidence_span": item.evidence_span,
-                        "correct_task": "",
-                        "correct_owner": "",
-                        "correct_deadline": "",
-                        "notes": "",
-                    }
+                    _add_suggestions(
+                        {
+                            "row_id": row_id,
+                            "meeting_id": meeting_id,
+                            "arm": "llm",
+                            "item_index": i,
+                            "text_shown": item.task,
+                            "owner": item.owner or "",
+                            "deadline": item.deadline or "",
+                            "evidence_span": item.evidence_span,
+                            "correct_task": "",
+                            "correct_owner": "",
+                            "correct_deadline": "",
+                            "notes": "",
+                        },
+                        transcript,
+                    )
                 )
         else:
             print(f"warning: no LLM output for {meeting_id}, skipping that arm")
@@ -98,20 +127,23 @@ def main() -> None:
             for i, cand in enumerate(candidates):
                 row_id += 1
                 rows.append(
-                    {
-                        "row_id": row_id,
-                        "meeting_id": meeting_id,
-                        "arm": "classifier",
-                        "item_index": i,
-                        "text_shown": cand.text,
-                        "owner": cand.owner or "",
-                        "deadline": cand.deadline or "",
-                        "evidence_span": cand.text,
-                        "correct_task": "",
-                        "correct_owner": "",
-                        "correct_deadline": "",
-                        "notes": "",
-                    }
+                    _add_suggestions(
+                        {
+                            "row_id": row_id,
+                            "meeting_id": meeting_id,
+                            "arm": "classifier",
+                            "item_index": i,
+                            "text_shown": cand.text,
+                            "owner": cand.owner or "",
+                            "deadline": cand.deadline or "",
+                            "evidence_span": cand.text,
+                            "correct_task": "",
+                            "correct_owner": "",
+                            "correct_deadline": "",
+                            "notes": "",
+                        },
+                        transcript,
+                    )
                 )
         else:
             print(f"warning: no classifier output for {meeting_id}, skipping that arm")

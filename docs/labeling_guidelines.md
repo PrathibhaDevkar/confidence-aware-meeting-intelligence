@@ -1,6 +1,16 @@
 # Gold Set Labeling Guidelines
 
-You're judging extracted action items (from both the LLM and classifier arms) against the source transcript, in `data/eval_gold/labeling_sheet.csv`. For each row, fill in three columns with `y` or `n`:
+You're judging extracted action items (from both the LLM and classifier arms) against the source transcript. Use `scripts/labeling_app.py` (`streamlit run scripts/labeling_app.py`) rather than editing the CSV directly.
+
+## Assisted labeling (suggestions)
+
+Each row shows a **suggested** task/owner/deadline judgment with a plain-English reason (e.g. "contains a question, not a clean commitment"). This comes from simple pattern-matching (`confidence/pseudo_label_heuristic.py`) - modal verbs, question marks, whether the evidence quote is actually grounded in the transcript, etc. - **not from either comparison arm's own model**, specifically to avoid the circularity of an LLM pre-judging its own output.
+
+The suggestion is a starting point, not the answer - it's wrong often enough that you need to actually read the evidence each time, not just click accept reflexively. Use "✓ Accept suggestion" when you agree, or answer manually when you don't.
+
+**Honest limitation**: even with real review, pre-filled suggestions can anchor judgment somewhat compared to labeling fully cold - worth naming in the final write-up as a caveat on the gold set's independence, not something to hide.
+
+For each row, the underlying judgment is three questions, each `y`/`n`:
 
 ## `correct_task` — is this a genuine action item, described accurately?
 

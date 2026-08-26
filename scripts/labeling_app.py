@@ -83,6 +83,25 @@ with st.expander("Show full meeting transcript for context"):
     st.text(_load_full_transcript_text(row["meeting_id"]))
 
 st.markdown("---")
+st.markdown(
+    f"**💡 Suggested: task={row['suggested_task']} / owner={row['suggested_owner']} / "
+    f"deadline={row['suggested_deadline']}**"
+)
+st.caption(f"Why: {row['suggestion_reason']}")
+st.caption(
+    "This is a plain pattern-matching guess (not a model judgment) - a starting point to "
+    "confirm or correct, not the answer. Check it against the evidence above."
+)
+
+if st.button("✓ Accept suggestion & Next →", use_container_width=True):
+    st.session_state.df.at[idx, "correct_task"] = "y" if row["suggested_task"] == "Yes" else "n"
+    st.session_state.df.at[idx, "correct_owner"] = "y" if row["suggested_owner"] == "Yes" else "n"
+    st.session_state.df.at[idx, "correct_deadline"] = "y" if row["suggested_deadline"] == "Yes" else "n"
+    st.session_state.df.to_csv(CSV_PATH, index=False)
+    st.session_state.idx += 1
+    st.rerun()
+
+st.markdown("*Or answer manually if you disagree with the suggestion:*")
 st.markdown("**1. Is this a genuine action item, described accurately?**")
 correct_task = st.radio(
     "correct_task", ["Yes", "No"], index=None, key=f"task_{idx}",
