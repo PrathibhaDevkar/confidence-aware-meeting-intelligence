@@ -15,7 +15,7 @@ from __future__ import annotations
 import re
 from typing import Optional
 
-from confidence.grounding_check import is_grounded
+from confidence.grounding_check import find_evidence_speaker, is_grounded
 from confidence.owner_attribution import classify_owner_mention
 from pipeline.schema import Transcript
 
@@ -52,7 +52,8 @@ def suggest_task(text_shown: str, evidence_span: str, transcript: Optional[Trans
 
 def suggest_owner(owner: str, evidence_span: str, transcript: Optional[Transcript]) -> tuple[str, str]:
     participants = transcript.participants if transcript else []
-    category = classify_owner_mention(evidence_span, None, participants)
+    speaker = find_evidence_speaker(evidence_span, transcript) if transcript else None
+    category = classify_owner_mention(evidence_span, speaker, participants)
 
     if not owner:
         if category in ("inferred_unassigned", "inferred_pronoun"):

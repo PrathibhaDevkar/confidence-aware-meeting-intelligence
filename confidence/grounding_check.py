@@ -6,6 +6,8 @@ empty in early Phase 2 testing before the prompt was fixed).
 """
 from __future__ import annotations
 
+from typing import Optional
+
 from rapidfuzz import fuzz
 
 from pipeline.schema import Transcript
@@ -27,3 +29,23 @@ def is_grounded(
 
     score = fuzz.partial_ratio(span, full_text) / 100.0
     return score >= fuzzy_threshold, score
+
+
+def find_evidence_speaker(evidence_span: str, transcript: Transcript) -> Optional[str]:
+    """Finds which utterance an evidence_span most likely came from and
+    returns its speaker. Needed because classify_owner_mention's
+    "explicit_self" category requires knowing who is speaking - matching
+    against the whole concatenated transcript (is_grounded) loses that."""
+    span = (evidence_span or "").strip()
+    if not span:
+        return None
+
+    best_speaker, best_score = None, 0.0
+    for utterance in transcript.utterances:
+        if not utterance.text:
+            continue
+        score = fuzz.partial_ratio(span, utterance.text) / 100.0
+        if score > best_score:
+            best_score, best_speaker = score, utterance.speaker
+
+    return best_speaker if best_score >= FUZZY_THRESHOLD else None

@@ -9,6 +9,7 @@ accelerate
 torch
 datasets
 scikit-learn
+joblib
 rouge-score
 bert-score
 spacy

@@ -70,3 +70,12 @@ class CandidateSentence(BaseModel):
     is_action_item_prob: float
     owner: Optional[str] = None
     deadline: Optional[str] = None
+
+
+class ConfidenceResult(BaseModel):
+    """Output of confidence/composite_score.py - the one thing the Streamlit
+    demo renders per action item."""
+
+    score: float
+    tier: Literal["High", "Medium", "Low"]
+    rationale: str
