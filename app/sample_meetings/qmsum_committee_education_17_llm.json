@@ -1,0 +1,239 @@
+{
+  "abstractive_summary": "The QMSum Committee discussed the Welsh Baccalaureate qualification, exploring challenges and opportunities in its implementation and perceived value. Committee members considered the qualification's relevance to industry needs, its impact on students' future prospects, and its limitations. They also discussed the importance of employer buy-in, vocational skills, and a range of qualification options. Ultimately, the committee agreed to prioritize the qualification's development and recognize its value in preparing learners for the workforce.",
+  "key_decisions": [
+    "The Welsh baccalaureate qualification is not well understood by employers, particularly small and microbusinesses.",
+    "Employer involvement and buy-in are crucial for the success of the Welsh bac qualification.",
+    "The Welsh bac should be focused on skills development and employability, rather than just qualifications.",
+    "It is questionable whether the Welsh bac is beneficial for learners at national and foundation levels.",
+    "Welsh bac is not a facilitating subject, and its comparative value depends on the sector and the learner's needs.",
+    "It is unclear whether the skills developed through the Welsh bac can be achieved through other qualifications.",
+    "Universally adopting the Welsh Baccalaureate at level 3 but not at levels 1 and 2.",
+    "The Welsh bac should be seen as an important part of creating a rounded individual ready for employment.",
+    "The development of commercial skills should not be limited to qualification, but also through non-qualification routes.",
+    "There is a need for a range of qualification options to cater to different learners' needs.",
+    "The qualification should be contextualised to be successful.",
+    "The committee will meet in private for the remainder of the meeting."
+  ],
+  "action_items": [
+    {
+      "task": "Review and clarify the Welsh baccalaureate qualification with employers and stakeholders.",
+      "evidence_span": "and, certainly, when that's evolved over the past few years and there have been changes, it would have been quite difficult to keep up to date with those, I imagine.",
+      "owner": null,
+      "owner_attribution": "explicit_third_person_named",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Collaborate with employers and stakeholders to develop industry-relevant skills and qualifications.",
+      "evidence_span": "they want them to get the right qualification. They're having enough headache getting around the differences with apprenticeships and the levy between England and Wales, and changes to qualifications.",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Review the qualification to include more employability and entrepreneurial skills.",
+      "evidence_span": "I think we need to review the qualification, and I think the voice of employers should be a key part of that review",
+      "owner": null,
+      "owner_attribution": "explicit_third_person_named",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Link up contractual clauses with employers to provide a more structured way of getting employers into schools.",
+      "evidence_span": "It's the community benefits clauses that are in construction contracts. They're there to serve a really good purpose, but it's become a little bit piecemeal and a little bit tokenistic, whereas the Welsh bac offers an opportunity",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Review the Welsh bac program to ensure it remains focused on skills development and employability.",
+      "evidence_span": "And I think it was interesting, the comment that was made about the Duke of Edinburgh—",
+      "owner": null,
+      "owner_attribution": "explicit_third_person_named",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "speaker_role_default"
+    },
+    {
+      "task": "Assess the suitability of the Welsh bac for learners with limited GCSEs or literacy and numeracy skills.",
+      "evidence_span": "So, I think it needs to be reviewed, to look at how we could make skilled and employable people.",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "low",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Investigate the consistency of Welsh bac recognition across different universities.",
+      "evidence_span": "but would their admissions tutors prefer four A-levels? Absolutely.",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Determine the subjects in which the Welsh bac is valued in universities.",
+      "evidence_span": "particularly in sport, when our students go to Cardiff Met, and business studies, when our learners go to USW.",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Research how the Welsh bac can be made more beneficial for learners at national and foundation levels.",
+      "evidence_span": "so that learners don't come in banging at the door saying, 'We want to do the Welsh bac because it's exactly the same or very similar to what we did when we were in school.'",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "low",
+      "llm_confidence": "medium",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Investigate how colleges perceive the Welsh bac's rigour and develop a framework to support this discussion.",
+      "evidence_span": "I think one of the problems that you're hearing is that perhaps the Welsh bac is trying to be all things to all men.",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Research how the skills developed through the Welsh bac can be achieved through other qualifications",
+      "evidence_span": "Can they be learnt in any of the other qualifications?",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "low",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Examine the effectiveness of the Welsh bac in preparing learners for the workforce",
+      "evidence_span": "I think that's why I think there's a need to relook at it to make sure those skills are being developed fully.",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "low",
+      "llm_confidence": "low",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Research the recruitment strategies of other colleges and institutions offering the Welsh Baccalaureate",
+      "evidence_span": "because we have had witnesses who say that it would be a good idea because it reduces the amount of competition and advantage that certain institutions have",
+      "owner": null,
+      "owner_attribution": "explicit_third_person_named",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "low",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Develop a plan to encourage students to take the Welsh Baccalaureate, particularly for those in STEM subjects",
+      "evidence_span": "",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "low",
+      "llm_confidence": "low",
+      "basis": "speaker_role_default"
+    },
+    {
+      "task": "Research and promote alternative qualification options to the Welsh bac",
+      "evidence_span": "we should be talking about other things",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "speaker_role_default"
+    },
+    {
+      "task": "Develop strategies to overcome negative perceptions of the Welsh bac among learners and parents",
+      "evidence_span": "it is possible to talk parents and learners round, but then that's time spent having to do that selling job when we should be talking about other things",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Invest heavily in training vocational lecturers to deliver the Welsh bac.",
+      "evidence_span": "we've invested heavily in training those vocational lecturers to understand how to deliver the Welsh bac and get positive outcomes of the Welsh bac—",
+      "owner": null,
+      "owner_attribution": "explicit_third_person_named",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "medium",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Incorporate industry experts and mentorship programmes into college curricula.",
+      "evidence_span": "we've got industry experts in colleges. We've got industry experts that are brought into colleges as well, some more than others, to bring that to life, if you like.",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Review and revise the Welsh bac to return to its original vision.",
+      "evidence_span": "I'll agree. We visited Spain recently, and they have an entrepreneurship and enterprise unit that is mandatory for everybody, but it appeared to be far more fit for purpose than the Welsh bac is currently.",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "medium",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Check assessment processes and reduce paperwork to allow for more experiential learning.",
+      "evidence_span": "By the time you've done all the paperwork you haven't got time to do any of the learning.",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Send a transcript to check for accuracy",
+      "evidence_span": "We will, as usual, send you a transcript to check for accuracy following the meeting",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Note papers to note",
+      "evidence_span": "Paper to note 1 is a letter from the Minister for Children, Older People and Social Care regarding the Childcare Funding (Wales) Bill",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "low",
+      "llm_confidence": "medium",
+      "basis": "explicit_statement"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "abstractive_summary": "The Denver City Council approved Council Bill 20 2-0585, which rezones a property at 1170 North Holly Street in the Montclair neighborhood from urban edge single unit D to Urban Edge Single Unit d1x, allowing for an accessory dwelling unit.",
+  "key_decisions": [
+    "Approve Council Bill 20 2-0585",
+    "Approve the rezoning of 1170 North Hawley Street from ESU de X to ESU d1x",
+    "Allow more family members to be involved in the process"
+  ],
+  "action_items": [
+    {
+      "task": "Send the final bill to the Mayor's office",
+      "evidence_span": "UNKNOWN: Council Bill 20 2-0585 has passed.",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Review staff report on MAP Amendment request at 1170 North Holly Street",
+      "evidence_span": "UNKNOWN: May we have the staff report?",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Review and approve the rezoning request at 1170 North Holly Street",
+      "evidence_span": "UNKNOWN: Our next speaker is online, Michael Circo. ... Thank you, Bruce. ... Our next speaker is online, Michael Circo.",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Review and approve the rezoning of 1170 North Hawley Street from ESU de X to ESU d1x",
+      "evidence_span": "I request that the City Council vote to approve CCB two to dash all 585 the rezoning of 1170 North Hawley Street from ESU de X to ESU one.",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Review and provide feedback on the rezoning proposal",
+      "evidence_span": "No comments.",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "low",
+      "llm_confidence": "low",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Review and make a decision on the rezoning proposal",
+      "evidence_span": "I'm in support of this and hope the rest of the councilmembers will agree with me on my assessment of all of our criteria.",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    }
+  ]
+}

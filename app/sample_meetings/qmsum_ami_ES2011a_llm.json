@@ -1,0 +1,102 @@
+{
+  "abstractive_summary": "The project team brainstormed ideas for a unique, user-friendly remote control, exploring features such as a vibrating or lighting couch remote, and assigned tasks to the marketing and industrial designer teams.",
+  "key_decisions": [
+    "The selling price goal is twenty-five Euro, and the profit aim is fifty million Euro.",
+    "The remote control should have a limited number of buttons and possibly a built-in screen.",
+    "The remote control should be portable and not require a dedicated base or attachment to the couch.",
+    "The remote control should have a robust and water-resistant design to prevent damage and user annoyance.",
+    "The project manager decided to focus on user requirements and assigned tasks to the marketing and industrial designer teams."
+  ],
+  "action_items": [
+    {
+      "task": "Research and decide on design elements for the remote control",
+      "evidence_span": "I've always wanted that, so like you can push a button on your T_V_",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Create a detailed design plan and format for the remote control",
+      "evidence_span": "I was thinking that too.",
+      "owner": null,
+      "owner_attribution": "explicit_named",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Develop a functional design and conceptual design for the remote control",
+      "evidence_span": "Functional design, conceptual design, and detailed design",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Set a deadline for the completion of the design plan and format",
+      "evidence_span": "Throughout our next couple of meetings we'll we'll be covering these things.",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "low",
+      "llm_confidence": "low",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Design a remote control with a limited number of buttons and possibly a built-in screen",
+      "evidence_span": "That would be cool",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "high",
+      "basis": "explicit_statement"
+    },
+    {
+      "task": "Research and estimate the cost of a remote control with a built-in screen and programming function",
+      "evidence_span": "We'll have to see how much that would be",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "low",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Design a remote control with a robust and water-resistant design",
+      "evidence_span": "So you can clip it to your",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "high",
+      "llm_confidence": "low",
+      "basis": "contextual_inference"
+    },
+    {
+      "task": "Research technical functions",
+      "evidence_span": "I guess you'd have to find out",
+      "owner": null,
+      "owner_attribution": "inferred_unassigned",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "high",
+      "basis": "speaker_role_default"
+    },
+    {
+      "task": "Develop user requirements",
+      "evidence_span": "So we'll be working on the user requirements",
+      "owner": null,
+      "owner_attribution": "explicit_self",
+      "deadline": null,
+      "priority": "medium",
+      "llm_confidence": "medium",
+      "basis": "explicit_statement"
+    }
+  ]
+}

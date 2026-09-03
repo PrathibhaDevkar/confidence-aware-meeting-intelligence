@@ -1,0 +1,1946 @@
+{
+  "meeting_id": "qmsum_ami_ES2011a",
+  "source_dataset": "qmsum",
+  "split": "test",
+  "participants": [
+    "Industrial Designer",
+    "Marketing",
+    "Project Manager",
+    "User Interface"
+  ],
+  "utterances": [
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Here we go . Welcome everybody . Um , I'm Abigail Claflin . You can call me Abbie . 'S see . PowerPoint , that's not it . There we go . So this is our kick off meeting . Um and I guess we should all get acquainted . Let's shall we all introduce ourselves ?",
+      "turn_index": 0
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Hi I'm Chiara , I'm the um Marketing Expert . Um , would you like me to talk about my aims at the moment , or would you like me to just say my name and then we can talk about business later ?",
+      "turn_index": 1
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "I think we'll get around to that , yeah . So this is just introductions yeah .",
+      "turn_index": 2
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "We'll get round to that later . My name is Chiara and I'm the Marketing Expert .",
+      "turn_index": 3
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Okay . I forgot to s say I'm the Project Manager but I figured you all knew that already ,",
+      "turn_index": 4
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 5
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 6
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "um so .",
+      "turn_index": 7
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I'm Stephanie and I am the User Interface Designer .",
+      "turn_index": 8
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "I'm Krista and I'm the Industrial Designer .",
+      "turn_index": 9
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Okay . Um so f here's our agenda for today . Um we're gonna do some tool training , project plan and discuss then close . Um so . So our aim is to produce a remote control that is original , trendy and user friendly . And to do this , we have to um there's certain things we have to consider about functional aspects and conceptual design of the thing . So . We'll get to that . Oh there it is . Right . Functional design , conceptual design and detailed design . So throughout our next couple of meetings we'll we'll be covering these things . Um so we're gonna try out our white board . If we'll all draw our favourite animal , to sum up the characteristics of that animal . Okay .",
+      "turn_index": 10
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "So you want us to draw it and then talk about it ? Or just draw it ?",
+      "turn_index": 11
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 12
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "I think both .",
+      "turn_index": 13
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . Both . Yeah .",
+      "turn_index": 14
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Okay . Why don't we do both . Right .",
+      "turn_index": 15
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Who starts ? We ought to decide who starts and all that . No ?",
+      "turn_index": 16
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Any volunteers ?",
+      "turn_index": 17
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Uh-huh .",
+      "turn_index": 18
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Does anyone know what they wanna draw ?",
+      "turn_index": 19
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 20
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Mm , I gotta think about it for a second like . Uh Does it have to be functional , trendy and user friendly ?",
+      "turn_index": 21
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "I don't think so .",
+      "turn_index": 22
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 23
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um . Okay , I'll draw . I'll draw one .",
+      "turn_index": 24
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 25
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Make sure my things here . Uh-oh . Right . Okay , my favourite animal is see . Oops .",
+      "turn_index": 26
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "A dolphin .",
+      "turn_index": 27
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , it's",
+      "turn_index": 28
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 29
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "'S like playing Pictionary .",
+      "turn_index": 30
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , I guess it has a fin on top too , yeah . It's my dolphin .",
+      "turn_index": 31
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "So what characteristics do you like about your animal ?",
+      "turn_index": 32
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 33
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I like its tail .",
+      "turn_index": 34
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 35
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um , no , I think dolphins are really uh I dunno , they're smart and they they're cute and they like swimming and that's cool , like",
+      "turn_index": 36
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "They're graceful .",
+      "turn_index": 37
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "they're graceful yeah , and they're so",
+      "turn_index": 38
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Sleek .",
+      "turn_index": 39
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah they're sleek",
+      "turn_index": 40
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 41
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "and they look intelligent and I don't know , they're I guess it's the whole like binocular vision thing .",
+      "turn_index": 42
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "I don't know how intelligent that one looks .",
+      "turn_index": 43
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 44
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah he he doesn't look that smart . He's a I dunno um they're I think it's cool the the um the interaction that or the th things that the reasons people seem to like you know you get ex you know people are sitting on the beach and p they're like oh look there's dolphins and it's kinda like but they're you know they jump around in the water and they're happy and they're mammals , but they swim .",
+      "turn_index": 45
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yes . Does anybody else wanna draw their animal ?",
+      "turn_index": 46
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Suppose I can draw an animal , yeah .",
+      "turn_index": 47
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": ".",
+      "turn_index": 48
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 49
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Uh-oh there goes the ten .",
+      "turn_index": 50
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 51
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "It's a cat .",
+      "turn_index": 52
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 53
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "I don't know . They sleep all day , they're easy to draw .",
+      "turn_index": 54
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Do you wanna anything ?",
+      "turn_index": 55
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Uh yeah .",
+      "turn_index": 56
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "I dunno if the the",
+      "turn_index": 57
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "I think the pen is running out of",
+      "turn_index": 58
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Well I had the cat as well , but uh I've got a spare one .",
+      "turn_index": 59
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "ah .",
+      "turn_index": 60
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 61
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 62
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "So I'll use the spare one . Um but it's harder to draw um .",
+      "turn_index": 63
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "And the pen's dying .",
+      "turn_index": 64
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um .",
+      "turn_index": 65
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "A horse .",
+      "turn_index": 66
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Horse .",
+      "turn_index": 67
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Uh . Um I don't really know how the legs go ,",
+      "turn_index": 68
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 69
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "That's very good .",
+      "turn_index": 70
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 71
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "but anyway I will do that . Um , and the main reason is they're pretty . I think they're very pretty and they go well with the environment , and I like the way they run and I used to do horse riding and they're just very sort of sturdy and nice animals . And I like the way um they feel , sort of under under the hand , I think that's pretty much it . Um",
+      "turn_index": 72
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . This cord's Uh . Right . Actually I haven't thought of anything yet . Uh It's a pig .",
+      "turn_index": 73
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 74
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 75
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "So I'm thinking we should design a remote control that's water resistant , strong and furry . What do you think , yeah ? This is",
+      "turn_index": 76
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "And furry .",
+      "turn_index": 77
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "yeah , well like a cat , you know , soft yeah .",
+      "turn_index": 78
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 79
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Textile tactile , tactile remote control .",
+      "turn_index": 80
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 81
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Although uh I'll just put there . Right .",
+      "turn_index": 82
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "You're dragging a you have a tail .",
+      "turn_index": 83
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Oh my gosh , this is disastrous . Sorry about that . Okay . So moving on . Our selling price goal is twenty five Euro and profit aim is fifty million Euro . So I'm guessing that we're not actually in Scotland , we're in some European country . Um , and we will hope to sell this internationally .",
+      "turn_index": 84
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Sorry can you just say that what's the what are our price goals again ?",
+      "turn_index": 85
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um selling price is twenty five Euro . Profit aim fifty million Euro .",
+      "turn_index": 86
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Okay .",
+      "turn_index": 87
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "How many should we sell then ? Um , a lot ,",
+      "turn_index": 88
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Anyone a mathematician ?",
+      "turn_index": 89
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "two two two million , two mi no , more f four million .",
+      "turn_index": 90
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Two million .",
+      "turn_index": 91
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Four million . And it",
+      "turn_index": 92
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 93
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "well it's the profit so if a profit for each is twelve fifty , that'll do four million .",
+      "turn_index": 94
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Oh , yeah .",
+      "turn_index": 95
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "It is a lot . Uh .",
+      "turn_index": 96
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "So f that's a fifty percent um uh . Um , I don't know what these mean because I didn't actually make the slide-show . Experience with remote control . So I guess we have to reflect on our experiences with remote controls to decide what um we would like to see in a convenient , practical , nice remote control . Um so do we have any initial ideas for uh how this remote control should be designed or formatted or the the buttons it should have .",
+      "turn_index": 97
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um , I think one thing is that it should be easy to find",
+      "turn_index": 98
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 99
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I was thinking that too .",
+      "turn_index": 100
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "bec yeah bec",
+      "turn_index": 101
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 102
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I think we should design something that has like a so you can like somehow like you I mean you always know where your T_V_ is , so just have a call button ,",
+      "turn_index": 103
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 104
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I've always wanted that ,",
+      "turn_index": 105
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 106
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "so like you can push a button on your T_V_",
+      "turn_index": 107
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , yeah yeah yeah yeah .",
+      "turn_index": 108
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "I mean you have it for the portable phone , so why not yeah .",
+      "turn_index": 109
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , yeah yeah yeah , so you should have a call button on your television to be able to find your remote control .",
+      "turn_index": 110
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . And even I think a little light . Um or even a maybe a vib a vibrating thing . I dunno but someth because it's usually under the sofa .",
+      "turn_index": 111
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 112
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . Yeah .",
+      "turn_index": 113
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "In which case you're going to be l but if it has a sort of signal which isn't any sound",
+      "turn_index": 114
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 115
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "I don't know if it's expensive maybe to",
+      "turn_index": 116
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I don't yeah I mean it but like I mean",
+      "turn_index": 117
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Maybe call is enough . But yeah .",
+      "turn_index": 118
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "just I mean like your phone even just has so like it can vibrate , it can light up and make noise and I dunno",
+      "turn_index": 119
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah yeah yeah . Yeah .",
+      "turn_index": 120
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "What if it had something like um just like a magnet on the back of it and you could I mean j just to have some place to put it besides like a base . You know like a portable phone has a base ,",
+      "turn_index": 121
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . Yeah , or if it had a yeah .",
+      "turn_index": 122
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "like just to have a home for it .",
+      "turn_index": 123
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 124
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah yeah yeah yeah .",
+      "turn_index": 125
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah ,",
+      "turn_index": 126
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "'Cause people just stick it on top of their T_V_ , but the point of having a remote is not to have to walk over to the T_V_ , so",
+      "turn_index": 127
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I mean",
+      "turn_index": 128
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Well that's why it's always in the couch .",
+      "turn_index": 129
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 130
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 131
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , in in the couch .",
+      "turn_index": 132
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 133
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 134
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I dunno , it seems like though that that would be hard , 'cause you not you're not gonna be lazy anyway and",
+      "turn_index": 135
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . Maybe we should design couches that have the remote control in the side arm .",
+      "turn_index": 136
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 137
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah so we the project is now couches and remote controls .",
+      "turn_index": 138
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "But even just a thing to attach it to the w you know if you had a thing , a pretty object attached to the wall . But that would really make it more expensive .",
+      "turn_index": 139
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 140
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "But it's only a plastic thing , r really , the thing on the wall .",
+      "turn_index": 141
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 142
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 143
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Something like that .",
+      "turn_index": 144
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Do you think it needs to be bigger to not lose , or does that not factor in ?",
+      "turn_index": 145
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "And the other thing is",
+      "turn_index": 146
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Bigger .",
+      "turn_index": 147
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Not well it needs to be sort of",
+      "turn_index": 148
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Like Hand hand held size , yeah .",
+      "turn_index": 149
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Hand-sized .",
+      "turn_index": 150
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . I don't think you need a",
+      "turn_index": 151
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Not not huge , but",
+      "turn_index": 152
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 153
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "But definitely not well I don't know .",
+      "turn_index": 154
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "It can't be that hard to put some kind of a noise on it .",
+      "turn_index": 155
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "No , it can't be , uh-uh .",
+      "turn_index": 156
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "No it really wouldn't be .",
+      "turn_index": 157
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Huh .",
+      "turn_index": 158
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Or like or like a light thing . You know . I dunno",
+      "turn_index": 159
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 160
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Like spaceship .",
+      "turn_index": 161
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": ". Yeah . Or make it mobile so it runs around and comes come find you yeah .",
+      "turn_index": 162
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 163
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 164
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 165
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "That would be really I'm sure we could do that for twenty five Euros a pop .",
+      "turn_index": 166
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Little homing device . Um .",
+      "turn_index": 167
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 168
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . Uh .",
+      "turn_index": 169
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Okay . So what do we think this remote control should Five minutes .",
+      "turn_index": 170
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Oh dear .",
+      "turn_index": 171
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Till the meeting oh right . This is what we have left . Um , oh we just",
+      "turn_index": 172
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I also think though that it shouldn't have too many buttons ,",
+      "turn_index": 173
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , I agree .",
+      "turn_index": 174
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "'cause I hate that when they have too many buttons and",
+      "turn_index": 175
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 176
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "B_ button and the F_ button , they don't do anything .",
+      "turn_index": 177
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , yeah yeah .",
+      "turn_index": 178
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I mean I know it has to have enough functions but like , I don't know you , just have like eight thousand buttons and you're like , no , you never use half of them . So .",
+      "turn_index": 179
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "You what if um may be a little fancy but what if it had like a little screen , so it has less buttons but it still has all the functions . Like the way a mobile phone does .",
+      "turn_index": 180
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "That would be cool .",
+      "turn_index": 181
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 182
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . I mean it just seems like",
+      "turn_index": 183
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "So you could like um like if you have I dunno if you have satellite if you have a hundred channels , you can the way you do it on your radio is that you uh",
+      "turn_index": 184
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "yeah .",
+      "turn_index": 185
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "what do you call it",
+      "turn_index": 186
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Select . Uh .",
+      "turn_index": 187
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "s y yeah but you can programme , so you can programme like your favourite channels , so like if you had a s",
+      "turn_index": 188
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "But , would you have the screen on the thing , or would you have it on the telly transmitting the screen .",
+      "turn_index": 189
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "That's something we could decide . Mm .",
+      "turn_index": 190
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Because",
+      "turn_index": 191
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I guess they would go together somehow ? I dunno .",
+      "turn_index": 192
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Because , I don't know if it's I think it's e expensive , if you have if you use the telly screen , 'cause the telly's already a screen , then you can pro sort of have a programming function , really easy sort of arrow up and down , on the remote ,",
+      "turn_index": 193
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . Yeah .",
+      "turn_index": 194
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "and then use the telly as a screen .",
+      "turn_index": 195
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Right .",
+      "turn_index": 196
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "But um",
+      "turn_index": 197
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "I'm thinking kind of",
+      "turn_index": 198
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "But yeah for sure . Something like not it's not on the button but it's telling you what to do ,",
+      "turn_index": 199
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 200
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "is that what you mean ?",
+      "turn_index": 201
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 202
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Right . Mm .",
+      "turn_index": 203
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Or like you h you see those you know people I'm thinking of like celebrity cribs kind of things when like they have all those these things that at their house you know their their entire house is so electronic , and they have like this one master control that and it's like a hand held like turns on everything sort of control and it has like a screen and like so I think it should be possible to have some kind of a screen , I don't know if it must be it would probably",
+      "turn_index": 204
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 205
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "must be ex too expensive though t like I dunno .",
+      "turn_index": 206
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Mm .",
+      "turn_index": 207
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "But like mobile phones have screens and they're cheap .",
+      "turn_index": 208
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , yeah . Yeah that's true .",
+      "turn_index": 209
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . I mean , we have to remember our budget is twelve point twelve fifty for to actually make the device .",
+      "turn_index": 210
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 211
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Mm .",
+      "turn_index": 212
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um but it's something to think about , yeah .",
+      "turn_index": 213
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Well , I guess we have to get to that later , yeah .",
+      "turn_index": 214
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "I mean we'll have to see how much that would be .",
+      "turn_index": 215
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 216
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Or some it i we can find out probably on the internet how much it's",
+      "turn_index": 217
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 218
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um . Yeah , and the other thing you said that thing about robust and water um",
+      "turn_index": 219
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 220
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "What was the word ?",
+      "turn_index": 221
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Furry .",
+      "turn_index": 222
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Water resistant .",
+      "turn_index": 223
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Oh I was just",
+      "turn_index": 224
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 225
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "No but it's I thought , ah , spot on .",
+      "turn_index": 226
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 227
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Good feel , tact tactile , good tactile feel ,",
+      "turn_index": 228
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 229
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "maybe something didn doesn't make your hands sweat lot .",
+      "turn_index": 230
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah . Mm , mm .",
+      "turn_index": 231
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "That's quite annoying .",
+      "turn_index": 232
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Maybe um just like a simple thing to have a clip on it , like so you can clip it to your",
+      "turn_index": 233
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 234
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "like that's another",
+      "turn_index": 235
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , clip . Ooh . Um .",
+      "turn_index": 236
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um . We should probably start wrapping up , um we've got some initial ideas that we can all look into . Um , and come up with some new ones for the next meeting , which will be in another thirty minutes . Um . So . Yeah . The Industrial Designer , what does that stand for , I_D_ ,",
+      "turn_index": 237
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah I think so .",
+      "turn_index": 238
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "yeah um is going to be looking more into the working design . So I guess you'd be looking at lots of the things we discussed about screen and um that sort of thing . The something , what is the U_I_ ?",
+      "turn_index": 239
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "User .",
+      "turn_index": 240
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , what does it stand for again ?",
+      "turn_index": 241
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "That's me . Uh , User Interface design .",
+      "turn_index": 242
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "User Interface Designer . So that's gonna be more technical . I guess that maybe the working design has also to do with like the physical feat like just the way it looks and the way it w",
+      "turn_index": 243
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "So technical function .",
+      "turn_index": 244
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "The working design is the structure .",
+      "turn_index": 245
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , yeah .",
+      "turn_index": 246
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "What is technical functions exactl I I don't really know what",
+      "turn_index": 247
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um , I guess you'd have to find out .",
+      "turn_index": 248
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 249
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "",
+      "turn_index": 250
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Um .",
+      "turn_index": 251
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "It says on that email but it",
+      "turn_index": 252
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "It was in the email .",
+      "turn_index": 253
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "It does but it I just don't really",
+      "turn_index": 254
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "I wrote down what mine were .",
+      "turn_index": 255
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "It said um",
+      "turn_index": 256
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah .",
+      "turn_index": 257
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "It said",
+      "turn_index": 258
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "What effect should the thing ha should it have , okay . Alright .",
+      "turn_index": 259
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah",
+      "turn_index": 260
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "And working design .",
+      "turn_index": 261
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "like",
+      "turn_index": 262
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Okay .",
+      "turn_index": 263
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Be a medium between you and the telly I think ,",
+      "turn_index": 264
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "Yeah , yeah . Alright .",
+      "turn_index": 265
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Mm .",
+      "turn_index": 266
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "that's uh",
+      "turn_index": 267
+    },
+    {
+      "speaker": "User Interface",
+      "start_time": null,
+      "end_time": null,
+      "text": "And how it works , okay . Right . I'm I'm on task .",
+      "turn_index": 268
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "And the M_E_ , what does that stand for ? M",
+      "turn_index": 269
+    },
+    {
+      "speaker": "Industrial Designer",
+      "start_time": null,
+      "end_time": null,
+      "text": "Marketing .",
+      "turn_index": 270
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "Marketing , right . Um .",
+      "turn_index": 271
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Marketing . Oh it's written here , but um .",
+      "turn_index": 272
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "So we'll be working on the user requirements , um Yeah .",
+      "turn_index": 273
+    },
+    {
+      "speaker": "Marketing",
+      "start_time": null,
+      "end_time": null,
+      "text": "Okay .",
+      "turn_index": 274
+    },
+    {
+      "speaker": "Project Manager",
+      "start_time": null,
+      "end_time": null,
+      "text": "So I guess that wraps it up . I'll see you all in thirty minutes . I just did .",
+      "turn_index": 275
+    }
+  ],
+  "reference_summary": "Project Manager invites teammates to brainstorm animal characteristics on remote control function and suggest a reflection on user experience to improve technical function design. Price goal is 25 Euro, profit aim is fifty million Euro, and sales goal is four million. To summarize, the function design will be user-friendly and practical, in which the technical function will be portable phone based, hand-sized, light with limited but all-functioned buttons."
+}
