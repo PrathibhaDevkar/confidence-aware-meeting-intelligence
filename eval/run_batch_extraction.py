@@ -45,30 +45,50 @@ def main() -> None:
     llm_out_dir.mkdir(parents=True, exist_ok=True)
     clf_out_dir.mkdir(parents=True, exist_ok=True)
 
+    failures: list[tuple[str, str, str]] = []  # (meeting_id, stage, error)
+
     for i, meeting_id in enumerate(meeting_ids, 1):
         print(f"[{i}/{len(meeting_ids)}] {meeting_id}")
-        transcript = Transcript.model_validate_json(_find_transcript_path(meeting_id).read_text())
+        try:
+            transcript = Transcript.model_validate_json(_find_transcript_path(meeting_id).read_text())
+        except Exception as exc:  # noqa: BLE001 - one bad meeting shouldn't kill the batch
+            print(f"  FAILED to load transcript: {exc}")
+            failures.append((meeting_id, "load", str(exc)))
+            continue
 
         llm_path = llm_out_dir / f"{meeting_id}.json"
         if args.skip_existing and llm_path.exists():
             print("  llm: skipped (exists)")
         else:
-            start = time.time()
-            summary = extract(transcript, model=args.model)
-            llm_path.write_text(summary.model_dump_json(indent=2))
-            print(f"  llm: {len(summary.action_items)} action items ({time.time() - start:.1f}s)")
+            try:
+                start = time.time()
+                summary = extract(transcript, model=args.model)
+                llm_path.write_text(summary.model_dump_json(indent=2))
+                print(f"  llm: {len(summary.action_items)} action items ({time.time() - start:.1f}s)")
+            except Exception as exc:  # noqa: BLE001
+                print(f"  llm FAILED: {exc}")
+                failures.append((meeting_id, "llm", str(exc)))
 
         clf_path = clf_out_dir / f"{meeting_id}.json"
         if args.skip_existing and clf_path.exists():
             print("  classifier: skipped (exists)")
         else:
-            candidates = predict_candidates(transcript)
-            clf_path.write_text(
-                "[" + ",\n".join(c.model_dump_json() for c in candidates) + "]"
-            )
-            print(f"  classifier: {len(candidates)} candidates")
+            try:
+                candidates = predict_candidates(transcript)
+                clf_path.write_text(
+                    "[" + ",\n".join(c.model_dump_json() for c in candidates) + "]"
+                )
+                print(f"  classifier: {len(candidates)} candidates")
+            except Exception as exc:  # noqa: BLE001
+                print(f"  classifier FAILED: {exc}")
+                failures.append((meeting_id, "classifier", str(exc)))
 
-    print(f"\nDone: {len(meeting_ids)} meetings processed.")
+    succeeded = len(meeting_ids) - len({f[0] for f in failures})
+    print(f"\nDone: {succeeded}/{len(meeting_ids)} meetings fully succeeded.")
+    if failures:
+        print(f"{len(failures)} failure(s) (re-run with --skip-existing to retry only what's missing):")
+        for meeting_id, stage, error in failures:
+            print(f"  {meeting_id} [{stage}]: {error}")
 
 
 if __name__ == "__main__":
