@@ -12,7 +12,6 @@ scikit-learn
 joblib
 rouge-score
 bert-score
-spacy
 rapidfuzz
 matplotlib
 python-dotenv
