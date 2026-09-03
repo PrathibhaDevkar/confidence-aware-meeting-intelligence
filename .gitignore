@@ -20,3 +20,4 @@ models/
 # OS cruft
 .DS_Store
 __MACOSX/
+.claude/
